@@ -29,7 +29,7 @@ const Cart = ({ cartItems, setCart }) => {
                                           <div className="cardescAndBtn">
                                                 <div className="itemDescription">
                                                       <div className="cartItemName">{item.itemName}</div>
-                                                      <div className="cartItemPrice">{item.unitPrice}</div>
+                                                      <div className="cartItemPrice">Rs.{item.unitPrice}</div>
                                                 </div>
                                                 <div className="quantityContainer">
                                                       <h4>{item.quantity}</h4>

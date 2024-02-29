@@ -1,8 +1,21 @@
 
 import './App.css';
 import Admin from './components/admin/Admin';
+import PermisionList from './components/admin/PermisionList';
+import AddEmployee from './components/admin/AddEmployees';
+
+import Signup from './components/customer/Signup';
+import Nav from './components/aboutAndContact/Nav';
+import Home from './components/customer/Home';
+import Homepage from './components/aboutAndContact/Homepage';
 import Login from './components/customer/Login';
 import PaymentPortal from './components/customer/PaymentPortal';
+import Cart from './components/order/Cart';
+
+import About from './components/aboutAndContact/About';
+import Contact from './components/aboutAndContact/contact';
+
+
 
 import AddStaff from './components/delivery/AddStaff';
 import RootLayout from './components/layouts/rootLayout';
@@ -21,7 +34,13 @@ function App() {
 
      
       <Route path='/' element={<RootLayout/>}>
-        <Route  index element={<Admin/>} />   
+        {/* <Route  index element={<Admin/>} />    */}
+        <Route path='homepage' element={<Homepage/>}/>
+        <Route path='about' element={<About/>}/>
+        <Route path='contact' element={<Contact/>}/>
+        <Route path='home' element={<Home/>}/>
+        <Route path='/home/signup' element={<Signup/>}/>
+        <Route path='/home/signin' element={<Login/>}/>
         <Route path='farm' element={<Farm/>}  />    
         <Route path='order' element={ <Order/> }/>
         <Route path='/order/checkout' element={<Checkout/>}/>
@@ -36,10 +55,20 @@ function App() {
   
   return (
     <div className="App">
+      {/* <Nav/> */}
         {/* <Home/> */}
+
         {/* <AddStaff/> */}
-        {/* <Login/> */}
+        
         {/* <Outlet/> */}
+        {/* <Farm/> */}
+        {/* <Cart/> */}
+
+        {/* <Admin/>
+        <PermisionList/>
+        <AddEmployee/> */}
+
+
           
       <CartProvider>
         <RouterProvider router={router}/>

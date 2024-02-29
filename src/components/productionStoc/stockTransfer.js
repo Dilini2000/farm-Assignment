@@ -67,7 +67,7 @@ const StockTransfer = ({stockData}) => {
             })}
           </tbody>
         </table>
-            <input className='verificationSubmit' type="submit" name="submit" onClick={handleSubmit} id="subit" />
+            <input className='verificationSubmit' type="submit" name="submit" onClick={handleSubmit} id="submit" />
       </form>
     </div>
   );

@@ -5,8 +5,10 @@ const Login = () => {
     return ( 
 
         <div className="loginFormContainer ">
-            <div className="loginHeading "></div>
+            <div className="loginHeading ">
             <h1>Sign In</h1>
+            </div>
+            
 
             <form className='loginForm my-4 ' >
                 <div className="inp"></div>
@@ -22,7 +24,7 @@ const Login = () => {
                 <label class="form-check-label " htmlFor="flexSwitchCheckDefault">Remember Me</label>
                 </div>
 
-                <input className=" submit" type="Submit" name="sumbit" id="submit" value="Submit" />
+                <input className=" sub" type="Submit" name="sumbit" id="submit" value="Submit" />
                                                 
             </form>
         </div>

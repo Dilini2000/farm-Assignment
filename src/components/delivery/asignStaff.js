@@ -1,7 +1,14 @@
+import deliveryNav from "./deliveryNav";
+
 const AssignDelivery = () => {
-    return ( <div className="assignDeliveryContainer">
+    return ( 
+        <div className="nav">
+    <div className="assignDeliveryContainer">
         
-    </div> );
+        
+        </div>
+        </div>
+ );
 }
  
 export default AssignDelivery;

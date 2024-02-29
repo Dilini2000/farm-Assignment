@@ -1,13 +1,13 @@
-.addStaffContainer{
+.addEmployeeComponent{
     background-color: rgb(212, 201, 201);
     height:640px;
 }
 
-.addStaffHeading{
+.addEmployee{
     padding-top: 50px;
 }
 
-.addStaffForm{
+.addEmployeeForm{
     max-width: 600px;
     margin: 10px auto;
     background-color: rgb(180, 185, 185);
@@ -15,7 +15,7 @@
     border-radius: 8px;
     
 }
-.addStafftable{
+.addEmployeetable{
     max-width: 500px;
     margin: 0px auto;
 }
@@ -36,7 +36,7 @@ input{
     padding: 5px;
 }
 
-.staffSubmit{
+.employeeSubmit{
     padding: 10px;
     border-radius: 8px;
     border: none;
